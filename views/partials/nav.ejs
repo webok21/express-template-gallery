@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+        <% data.forEach(element=> { %>
+            <li>
+                <a href="<%=element.url %>">
+                    <%= element.name %>
+                </a>
+            </li>
+            <% }) %>
+    </ul>
+</nav>
